@@ -1,0 +1,122 @@
+.App{
+    max-width: 100%;
+    margin-top:50px;
+}
+
+h1,h2,h3,h4{
+    font-family:Cherry Swash,cursive;
+}
+
+h1{
+    font-size:20px;
+    padding:5px 0;
+}
+
+h3{
+    margin: 6px 0;
+}
+
+input, textarea{
+    display: block;
+    margin:0 auto;
+    font-family:Cherry Swash,cursive;
+    resize: none;
+}
+
+.recipe-box-container{
+    margin: 0 auto;
+    max-width:400px;
+}
+
+.header{
+    text-align: center;
+    color:white;
+    background: #333;
+    margin:0;
+}
+
+.recipe-container{
+    color:black;
+    border:1px solid lightgrey;
+}
+
+.new-form-container{
+    text-align: center;
+}
+
+.new-form{
+    margin: 0 auto;
+    max-width:400px;
+    background:#333;
+    color:white;
+    padding:15px 0;
+}
+
+.new-form h3{
+    font-size: 15px;
+}
+
+.name-container{
+    padding:8px 0;
+}
+
+.name-container input{
+    width:255px;
+}
+
+.ingredients-container{
+    padding:8px 0;
+}
+
+.btn-container{
+    max-width: 400px;
+    margin:0 auto;
+    text-align: left;
+}
+
+.recipe-info h2{
+    padding:5px 8px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.icon{
+    margin:0 4px;
+}
+
+.icon:hover{
+    cursor: pointer;
+    transform:scale(1.1);
+}
+
+.recipe-info h2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    user-select: none;
+}
+
+.recipe-info ul{
+    padding:5px 30px;
+    font-size:15px;
+}
+
+.btn{
+    padding:5px 8px;
+    background:#555;
+    border:none;
+    color:white;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+.btn:hover{
+    cursor: pointer
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.box-btn button{
+    margin:10px 15px;
+}
