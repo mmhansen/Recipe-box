@@ -4,7 +4,7 @@
 }
 
 h1,h2,h3,h4{
-    font-family:Cherry Swash,cursive;
+    font-family: 'Timmana', sans-serif;
 }
 
 h1{
@@ -19,7 +19,7 @@ h3{
 input, textarea{
     display: block;
     margin:0 auto;
-    font-family:Cherry Swash,cursive;
+   font-family: 'Timmana', sans-serif;
     resize: none;
 }
 
