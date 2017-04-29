@@ -10,6 +10,7 @@ const RecipeTitle = (props) => {
                     <div className="recipe-info-container" key={recipe.name}>
                         <Recipe
                             deleteRecipe={props.deleteRecipe}
+                            editRecipe={props.editRecipe}
                             name={recipe.name}
                             ingredients={recipe.ingredients}
                         />

@@ -6,7 +6,6 @@ class Recipe extends Component {
         super(props)
         this.state = {
             open: false,
-            edit: false
         }
 
         this.toggleRecipeInfo = this.toggleRecipeInfo.bind(this);
@@ -16,16 +15,13 @@ class Recipe extends Component {
         this.state.open ? this.setState({ open: false }) : this.setState({ open: true });
     }
 
-    editRecipe() {
-        this.setState({ edit: true });
-    }
-
     render() {
         if (this.state.open) {
             return (
                 <div className="recipe-info">
                     <h2 onClick={this.toggleRecipeInfo}>{this.props.name}</h2>
                     <i onClick={(e) => { this.props.deleteRecipe(this.props.name) }} className="fa fa-trash-o icon" aria-hidden="true"></i>
+                    <i onClick={(e) => { this.props.editRecipe(this.props.name, this.props.ingredients) }} className="fa fa-pencil-square-o icon" aria-hidden="true"></i>
                     <ul>
                         {this.props.ingredients.map((ingredient, ind) =>
                             <li key={ind}>{ingredient}</li>

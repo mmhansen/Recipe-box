@@ -19,7 +19,8 @@ h3{
 input, textarea{
     display: block;
     margin:0 auto;
-   font-family: 'Timmana', sans-serif;
+    font-family: 'Timmana', sans-serif;
+    font-size:16px;
     resize: none;
 }
 
@@ -76,7 +77,7 @@ input, textarea{
 
 .recipe-info h2{
     padding:5px 8px;
-    font-size: 15px;
+    font-size: 16.5px;
     display: inline-block;
 }
 
